@@ -1,0 +1,656 @@
+/*------responsive-----*/
+@media (max-width:410px) {
+    .containerhead{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    nav .containerhead .listhead ul{
+        display: flex;
+        overflow: hidden;
+        gap: 0px;
+        width: 360px;
+        align-items: center;
+        height: 40px;
+    }
+    nav .containerhead .listhead ul li a{
+        padding: 5px;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+    
+    body .textcontain{
+        height: 300px;
+        
+    }
+    
+    body .textcontain .text p{
+        font-size: 15px;
+        letter-spacing: 8px;
+        font-weight: 300px
+    }
+    body .textcontain .buttons form input[type="search"]{
+        width: 250px;
+    }
+    /*--sigment2--*/
+    .sigment2{
+        height: auto;
+    }
+    body .sigment2 .img2 header .logo-header-service{
+        display: flex;
+        gap: 0px;
+        width: 150px;
+        
+    }
+    body .sigment2 .img2 header .logo-header-service div{
+        font-size: 40px;
+    }
+   
+    body .sigment2 .img2 .content-service{
+        margin: 40px auto;
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+        overflow-y: auto;
+    }
+    body .sigment2 .img2 .content-service .servic{
+        width: 250px;
+        height: 400px;
+    }
+    /*--sigment3--*/
+    .containervideo{
+        flex-wrap: wrap;
+        overflow-y: auto;
+        
+    }
+    .containervideo div iframe{
+        width: 200px;
+    }
+    /*--sigment4--*/
+    .sigment4{
+        height: 180vh;
+    }
+    .containerdelivery{
+        flex-wrap: wrap;  
+    }
+    .sigment4 .containerdelivery .textdelivery{
+        width: 400px;
+        height: 400px; 
+        flex-grow: 1;
+    }
+    .sigment4 .containerdelivery .formlist{
+        width: 400px;
+        height: 520px;  
+        flex-grow: 1;
+    }
+    .textdelivery .logo div{
+        font-size: 40px;
+    }
+    .textdelivery h1{
+        font-size: 50px;
+    } 
+    .textdelivery h1 sub{
+        font-size: 20px;
+    } 
+    .textdelivery img{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .formlist > h1{
+        font-size: 30px;
+    }
+    .formlist form div label{
+        font-size: 18px;
+    }
+    .formlist form div input{
+        width: 200px;
+    }
+    .containerdelivery .formlist form{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .formlist form div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        width: 100%;
+        padding-right: 10px;  
+    }
+    .formlist form{
+        width: 100%; 
+    }
+    .formlist form .request textarea{
+        width: 300px;
+    }
+    .formlist form .buttonsdelivery input{
+        width: 100px;
+        height: 30px;
+    }
+
+    /*--sigment5---------------------------------*/
+
+    .sigment5 .generalheader .generallogo div{
+        font-size: 30px;
+    }
+    .sigment5{
+        width: 100%;
+        height: 260vh;
+    }
+    .sigment5 .container1-about {
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: none;
+    }
+    .contaier2-about{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logocontaier2-about{ 
+        width: 100%;
+        height: 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 8px;
+    }
+    .container1-about .location{
+        height: 700px;
+    }
+    .container1-about .textabout{
+        width: 100%;
+        height: 600px;
+    }
+    .textabout .articletext{
+        width: 100%;
+        
+    }
+    .textabout .articletext h2{
+        text-align: center;
+    }
+    .textabout .articletext p{
+        text-align: center;
+    }
+
+    .container1-about .location{
+        width: 100%;
+    }
+
+    .container1-about .location .img1location .img2location {
+        width: 150px;
+        height: 30px;
+    }
+    .container1-about .location .img1location img{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .container1-about .location .img1location .img2location div{
+        font-size: 20px;
+    }
+
+    .location .appandgps{
+        display: flex;
+        flex-direction: column;
+        height: 420px;
+        align-items: center;
+        width: 100%;
+    }
+    .location .appandgps .applocation{
+        height: 200px;
+    }
+    .gpslocation div a :hover{
+        rotate: 10deg;
+    }
+}
+
+
+
+
+@media (min-width:411px) and (max-width:650px) {
+    .containerhead{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    nav .containerhead .listhead ul{
+        display: flex;
+        overflow: hidden;
+        gap: 0px;
+        width: 400px;
+        align-items: center;
+        height: 40px;
+    }
+    nav .containerhead .listhead ul li a{
+        padding: 5px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    
+    body .textcontain{
+        height: 300px;
+        
+    }
+    body .textcontain .text p{
+        font-size: 20px;
+        letter-spacing: 8px;
+        font-weight: 300px
+    }
+    body .textcontain .buttons form input[type="search"]{
+        width: 350px;
+    }
+
+
+    /*--sigment2--*/
+
+
+    .sigment2{
+        height: auto;
+    }
+    body .sigment2 .img2 header .logo-header-service{
+        display: flex;
+        gap: 0px;
+        width: 150px;
+        
+    }
+    body .sigment2 .img2 header .logo-header-service div{
+        font-size: 40px;
+    }
+   
+    body .sigment2 .img2 .content-service{
+        margin: 40px auto;
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+        overflow-y: auto;
+    }
+    body .sigment2 .img2 .content-service .servic{
+        width: 250px;
+        height: 400px;
+    }
+
+
+
+    /*--sigment3--*/
+    .containervideo{
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+
+
+
+    /*--sigment4--*/
+    .sigment4{
+        height: 180vh;
+    }
+    .containerdelivery{
+        flex-wrap: wrap;  
+    }
+    .sigment4 .containerdelivery .textdelivery{
+        width: 400px;
+        height: 400px; 
+        flex-grow: 1;
+    }
+    .sigment4 .containerdelivery .formlist{
+        width: 400px;
+        height: 520px;  
+        flex-grow: 1;
+    }
+    .textdelivery .logo div{
+        font-size: 40px;
+    }
+    .textdelivery h1{
+        font-size: 50px;
+    } 
+    .textdelivery h1 sub{
+        font-size: 20px;
+    } 
+    .textdelivery img{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .formlist > h1{
+        font-size: 30px;
+    }
+    .formlist form div label{
+        font-size: 18px;
+    }
+    .formlist form div input{
+        width: 200px;
+    }
+    .containerdelivery .formlist form{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .formlist form div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        width: 100%;
+        padding-right: 10px;  
+    }
+    .formlist form{
+        width: 100%; 
+    }
+    .formlist form .request textarea{
+        width: 300px;
+    }
+    .formlist form .buttonsdelivery input{
+        width: 100px;
+        height: 30px;
+    }
+
+    /*--sigment5---------------------------------*/
+
+    .sigment5 .generalheader .generallogo div{
+        font-size: 35px;
+    }
+    .sigment5{
+        width: 100%;
+        height: 260vh;
+    }
+    .sigment5 .container1-about {
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: none;
+    }
+    .contaier2-about{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logocontaier2-about{ 
+        width: 100%;
+        height: 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 8px;
+    }
+    .container1-about .location{
+        height: 700px;
+    }
+    .container1-about .textabout{
+        width: 100%;
+        height: 600px;
+    }
+    .textabout .articletext{
+        width: 100%;
+        
+    }
+    .textabout .articletext h2{
+        text-align: center;
+    }
+    .textabout .articletext p{
+        text-align: center;
+    }
+
+    .container1-about .location{
+        width: 100%;
+    }
+
+    .container1-about .location .img1location .img2location {
+        width: 150px;
+        height: 30px;
+    }
+    .container1-about .location .img1location img{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .container1-about .location .img1location .img2location div{
+        font-size: 20px;
+    }
+
+    .location .appandgps{
+        display: flex;
+        flex-direction: column;
+        height: 420px;
+        align-items: center;
+        width: 100%;
+    }
+    .location .appandgps .applocation{
+        height: 200px;
+    }
+    .gpslocation div a :hover{
+        rotate: 10deg;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:651px) and (max-width:1112px){
+    .containerhead{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    nav .containerhead .listhead ul{
+        display: flex;
+        overflow: hidden;
+        gap: 0px;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+    nav .containerhead .listhead ul li a{
+        padding: 5px;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+    /*--sigment2--*/
+    .sigment2{
+        height: auto;
+    }
+    body .sigment2 .img2 header .logo-header-service{
+        display: flex;
+        gap: 0px;
+        width: 150px;
+        
+    }
+    body .sigment2 .img2 header .logo-header-service div{
+        font-size: 40px;
+    }
+   
+    body .sigment2 .img2 .content-service{
+        margin: 40px auto;
+        width: 80%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+        overflow-y: auto;
+    }
+    body .sigment2 .img2 .content-service .servic{
+        width: 250px;
+        height: 400px;
+    }
+    /*--sigment3--*/
+    .containervideo{
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+        /*--sigment4--*/
+    .sigment4{
+        height: 100vh;
+    }
+    .sigment4 .containerdelivery .textdelivery{
+        width: 400px;
+        height: 400px; 
+        flex-grow: 1;
+    }
+    .sigment4 .containerdelivery .formlist{
+        width: 400px;
+        height: 520px;  
+        flex-grow: 1;
+    }
+    .textdelivery .logo div{
+        font-size: 40px;
+    }
+    .textdelivery h1{
+        font-size: 50px;
+    } 
+    .textdelivery h1 sub{
+        font-size: 20px;
+    } 
+    .textdelivery img{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .formlist > h1{
+        font-size: 30px;
+    }
+    .formlist form div label{
+        font-size: 18px;
+    }
+    .formlist form div input{
+        width: 200px;
+    }
+    .containerdelivery .formlist form{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .formlist form div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        width: 100%;
+        padding-right: 10px;  
+    }
+    .formlist form{
+        width: 100%; 
+    }
+    .formlist form .request textarea{
+        width: 300px;
+    }
+    .formlist form .buttonsdelivery input{
+        width: 100px;
+        height: 30px;
+    }
+    
+    
+}
+
+
+
+@media (min-width:651px) and (max-width:941px){
+    .sigment5 .generalheader .generallogo div{
+        font-size: 35px;
+    }
+    .sigment5{
+        width: 100%;
+        height: 260vh;
+    }
+    .sigment5 .container1-about {
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: none;
+    }
+    .contaier2-about{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logocontaier2-about{ 
+        width: 100%;
+        height: 98px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 8px;
+    }
+    .container1-about .location{
+        height: 700px;
+    }
+    .container1-about .textabout{
+        width: 100%;
+        height: 600px;
+    }
+    .textabout .articletext{
+        width: 100%;
+        
+    }
+    .textabout .articletext h2{
+        text-align: center;
+    }
+    .textabout .articletext p{
+        text-align: center;
+    }
+
+    .container1-about .location{
+        width: 100%;
+    }
+
+    .container1-about .location .img1location .img2location {
+        width: 150px;
+        height: 30px;
+    }
+    .container1-about .location .img1location img{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .container1-about .location .img1location .img2location div{
+        font-size: 20px;
+    }
+
+    .location .appandgps{
+        display: flex;
+        flex-direction: column;
+        height: 420px;
+        align-items: center;
+        width: 100%;
+    }
+    .location .appandgps .applocation{
+        height: 200px;
+    }
+    .gpslocation div a :hover{
+        rotate: 10deg;
+    }
+}
+
+
+/*------responsive-----*/

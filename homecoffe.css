@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+/*
+font-family: "Playwrite IT Moderna", cursive;
+font-family: "Pacifico", cursive;
+  font-weight: 400;
+  */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+nav{
+    width: 100%;
+    min-height: 70px;
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.containerhead{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .containerhead .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .containerhead .logoin{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+nav .containerhead ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    overflow: hidden;
+    
+    
+}
+nav .containerhead ul li{
+    list-style:none;
+    
+}
+nav .containerhead ul a{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    transition: all 0.5s ease;
+}
+nav .containerhead ul a:hover{
+    background-color: chocolate;
+    font-size: 25px;
+    
+}
+
+
+.img{
+    background-image: url(photocoffe/Coffee-shop.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.img::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.textcontain{
+    /*background-color: brown;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+.textcontain .text p{
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing:8px;
+    text-shadow: 10px 10px 10px chocolate;
+}
+.textcontain .text .p2{
+    text-align: center;
+}
+.textcontain .buttons form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.textcontain .buttons form input[type="search"]{
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    border: none;
+}
+.textcontain .buttons form input[type="search"]:hover{
+    border: white solid 1px;
+}
+.textcontain .buttons form input[type="submit"]{
+    width: 180px;
+    margin: auto;
+    height: 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: rgba(210, 105, 30, 0.623);
+    font-weight: bold;
+    border: none;
+}
+.textcontain .buttons form input[type="submit"]:hover{
+    border: white solid 1px;
+}
+/*--------- line breack-------------*/
+.line{
+    width: 100%;
+    height: 20px;
+    background-color:chocolate;
+}
+/*--------- line breack-------------*/
+/*--------- sigment 2 service -------------*/
+
+.sigment2{
+    position: relative;
+    
+}
+.img2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+
+}
+.sigment2 .img2 header {
+    width: 100%;
+    min-height: 60px;
+    background-color:burlywood;  
+}
+.logo-header-service{
+    display: flex;
+    gap: 20px;
+    width: 20%;
+    margin: auto;
+    padding: 5px 0px;  
+}
+.logo-header-service div{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+.logo-header-service div i{
+    color: black;
+    margin-top: 5px;
+}
+.content-service{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.content-service .servic{
+    width: 250px;
+    height: 500px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.644),rgb(210, 105, 30));
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    
+    
+}
+.content-service .servic:hover{
+    border: gold solid 1px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.541);
+}
+.content-service .servic .img-service1{
+    background-image: url(photocoffe/Flat-Red-50-Coupon-Vector.webp);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+.content-service .servic .img-service2{
+    background-image: url(photocoffe/credit\ visa.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+.content-service .servic .img-service3{
+    background-image: url(photocoffe/fawryhh.svg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.content-service .servic h2{
+    text-transform: capitalize;
+    color: black;
+}
+.content-service .servic ul , li{
+    list-style:square ;
+    margin-left: 20px;
+    color: black;
+}
+.content-service .servic a{
+    display: block;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.151);
+    font-size: 20px;
+    position: absolute;
+    bottom: 5%;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+.content-service .servic a:hover{
+    border: gold solid 1px;
+}
+
+
+
+/*--------- line breack-------------*/
+/*--------- sigment 3 product -------------*/
+
+
+
+.sigment3{
+    height: 265vh;
+    width: 100%;
+    position: relative;
+    background-color:beige;
+    overflow: hidden;
+    
+}
+.generalheader{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+}
+.generallogo{
+    width: 50%;
+    height: 100%;
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.generallogo div{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.sigment3 .container-products{
+    width: 100%;
+    height: 95%;
+    
+}
+.sigment3 .container-products .productcase{
+    width: 90%;
+    margin: 10px auto;
+    height:400px ;  
+}
+.container-products .productcase .headh2{
+    text-align: center;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: black;
+    border-bottom: double chocolate 2px;
+    
+}
+.container-products .productcase .items{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    margin: 5px 5px;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    
+}
+.container-products .productcase .items div{
+    
+    width: 250px;
+    height: 330px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.container-products .productcase .items div:hover{
+    border: gold 1px solid;
+    box-shadow: 10px 10px 5px black ;
+}
+.productcase .items div img{
+    width: 248px;
+    height: 260px;
+}
+.productcase .items div h2{
+    color: chocolate;
+    text-align: center;
+    font-weight: 400px;
+}
+.productcase .items div h2 span{
+    color: rgb(255, 217, 0);
+}
+.productcase .items div a{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    margin: 5px auto;
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 100px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.productcase .items div a:hover{
+    border: black 1px solid;
+    color: gold;
+}
+.containervideo{
+    height: 290px;
+    width: 84%;
+    margin: auto;   
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+ 
+}
+.containervideo div iframe{
+    border-radius: 20px;
+}
+
+
+
+/*-------- segmint 4 ------------*/
+
+
+
+.sigment4 .generalheader .generallogo div i{
+    margin-top: 10px;
+}
+.sigment4{
+    width: 100%;
+    height: 105vh;
+    
+}
+.containerdelivery{
+    width: 100%;
+    height: 87%;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.sigment4 .containerdelivery .textdelivery{
+    width: 600px;
+    height: 550px;
+    
+}
+.sigment4 .containerdelivery .formlist{
+    width: 600px;
+    height: 550px;
+    
+}
+.textdelivery .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textdelivery .logo div{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: black;
+}
+.textdelivery .logo i{
+    color: black;
+}
+.textdelivery h1{
+    color: orange;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500px;
+    text-transform: capitalize;
+} 
+.textdelivery h1 sub{
+    color:black;
+    font-size: 30px;
+    font-family: "Playwrite IT Moderna", cursive;
+    
+    text-transform: lowercase;
+} 
+.textdelivery img{
+    
+    margin-left: 90px;
+}
+.formlist{
+    background-color: rgba(255, 166, 0, 0.397);
+    overflow: hidden;
+}
+.formlist > h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500px;
+    font-size: 50px;
+    
+}
+.formlist form div label{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.formlist form div input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    
+    
+}
+.formlist form div input:hover{
+    border: black 1px solid;
+}
+
+.formlist form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formlist form{
+    width: 80%;
+    margin: auto;
+    height:480px ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.formlist form .request{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.formlist form .request textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+.formlist form .request textarea:hover{
+    border: 1px solid black;
+}
+.formlist form .buttonsdelivery{
+    display: flex;
+    justify-content:space-around ;
+    
+}
+.formlist form .buttonsdelivery input{
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+.formlist form .buttonsdelivery input:hover{
+    border: black 1px solid;
+}
+
+
+
+/*--------- line breack-------------*/
+/*--------- sigment 5 about us -------------*/
+
+
+.sigment5{
+    width: 100%;
+    height: 150vh;
+}
+.sigment5 .container1-about {
+   
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 80%;
+    position: relative;
+}
+.container1-about .textabout{
+    width: 600px;
+    height: 100%;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.textabout .articletext{
+    width: 95%;
+    
+}
+.textabout .articletext h2{
+    color: chocolate;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.textabout .articletext p{
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+.container1-about .location{
+    width: 600px;
+    height: 100%;
+    
+    
+
+}
+.container1-about .location .img1location{
+    position: relative;
+}
+.container1-about .location .img1location .img2location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left:15px;
+}
+.container1-about .location .img1location img{
+    width: 600px;
+    height: 500px;
+    border-radius: 40px;
+    
+}
+
+.container1-about .location .img1location .img2location div{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: black;
+}
+.container1-about .location .img1location .img2location i{
+    color: black;
+}
+.location .appandgps{
+    
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    margin: 10px auto;
+    width: 550px;
+    
+}
+.location .appandgps .applocation{
+    
+    width: 250px;
+}
+.location .appandgps .gpslocation{
+    
+    width: 250px;
+}
+.socialmedia ul{
+    display: flex;
+    gap: 20px;
+}
+.socialmedia ul a{
+    display: inline-block;
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.socialmedia ul a i{
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.438);
+    transition: all 1s ;
+    
+}
+.socialmedia ul a i:hover{
+    font-size: 31px;
+}
+.socialmedia ul a i:hover{
+    color: rgba(0, 0, 0, 0.863);
+}
+.hotline a{
+    padding: 10px 20px;
+    background-color: chocolate;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.buttonapp a img{
+    width: 100px;
+    height: 50px;
+}
+.applocation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.buttonapp a:hover , .hotline a:hover{
+    
+    box-shadow: 10px 10px 10px black;
+}
+.gpslocation div a img{
+    width: 245px;
+    height: 195px;
+    border-radius: 10px;
+}
+.gpslocation div a :hover{
+    rotate: 10deg;
+}
+.contaier2-about{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logocontaier2-about{
+    
+    width: 250px;
+    height: 98px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    border-radius: 8px;
+}
+.logocontaier2-about div{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+}
+.logocontaier2-about i{
+    color: white;
+}
+.linkcontaier2-about{
+    height: 98px;
+    width: 300px;
+    
+}
+.link2contaier2-about{
+    height: 98px;
+    width: 300px;
+    
+}
+.contaier2-about .linkcontaier2-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contaier2-about .linkcontaier2-about div{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.contaier2-about .linkcontaier2-about div a{
+    color: black;
+    font-weight: none;
+    font-size: 16px;
+    transition: all 0.5s;
+    
+}
+.contaier2-about .linkcontaier2-about div a:hover{
+    color: chocolate;
+    margin-left:20px;
+}
+
+/*--------- line breack-------------*/
+/*--------- finish -------------*/
+body .all-logo a img{
+    width: 20px;
+    height: 20px;
+
+}
+.all-logo a{
+    display: inline-block;
+    
+    
+
+}
+.all-logo{
+    background-color: transparent;
+    width:25px ;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    z-index: 5;
+    
+}
+body .music audio{
+    width: 100px;
+    height:35px;
+    
+}
+body .music{
+    width: 100px;
+    height: 37px;
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 6;
+    bottom: 5px;
+    right: 0px;
+}
+body .music audio:hover , body .music:hover{
+    width: 200px;
+}
+/*------ scroll-------------*/
+body > a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.26);
+    position: absolute;
+    position: fixed;
+    top: 93%;
+    left: 10px;
+    z-index: 10;
+    transition: all 2s ;
+
+}
+body > a > i{
+    font-size: 30px;
+    color: chocolate;
+}
+body > a:hover{
+    border: 1px gold double;
+    
+}
+
